@@ -14,7 +14,11 @@
    
     
 }
-img{
+.am-slider-desc{
+    text-align: center;
+}
+
+.image img{
   border-radius: 10px 10px 10px 10px;
 }
 .image>img{
@@ -36,7 +40,7 @@ img{
     font-size: 14px;
     padding: 0;
 }
-.top-info-akb,.top-info-nogizaka,.top-info-hinatazaka{
+.top-info-akb,.top-info-nogizaka,.top-info-hinatazaka,.top-info-nv,.top-info-actress{
     position: absolute;
     border-radius: 10px 0px 10px 0px;
     height: 10%;
@@ -47,14 +51,27 @@ img{
     opacity: 0.8;
    
 }
+/*女演员*/
+.top-info-actress{
+    width: 30%;
+    background-color: #804040;
+}
+/*av女演员*/
+.top-info-nv{
+    width: 30%;
+    background-color: #D26900;
+}
+/*AKB48*/
 .top-info-akb{
   width: 30%;
-  background-color: palevioletred;
+  background-color: #FF7575;
 }
+/*乃木坂46*/
 .top-info-nogizaka{
   width: 40%;
     background-color: purple;
 }
+/*日向坂46*/
 .top-info-hinatazaka{
     width: 40%;
     background-color: deepskyblue;
@@ -66,7 +83,7 @@ img{
     li img{
         height: 250px;
     }
-    .top-info-akb,.top-info-nogizaka,.top-info-hinatazaka{
+    .top-info-akb,.top-info-nogizaka,.top-info-hinatazaka,.top-info-nv,.top-info-actress{
         font-size: 10px;
     }
     
